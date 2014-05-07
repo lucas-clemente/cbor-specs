@@ -2,7 +2,7 @@
 
 This document specifies a tag for UUIDs in Concise Binary Object Representation (CBOR) [1].
 
-    Tag: 31
+    Tag: 37
     Data item: byte string
     Semantics: Binary UUID (RFC 4122 section 4.1.2)
     Point of contact: Lucas Clemente <lucas@clemente.io>
@@ -10,7 +10,7 @@ This document specifies a tag for UUIDs in Concise Binary Object Representation 
 
 # Semantics
 
-Tag 31 can be applied to a byte string (major type 2) to indicate that the byte string is a binary UUID as specified by section 4.1.2. of RFC 4122 [2].
+Tag 37 can be applied to a byte string (major type 2) to indicate that the byte string is a binary UUID as specified by section 4.1.2. of RFC 4122 [2].
 
 # References
 
