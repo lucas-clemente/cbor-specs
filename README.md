@@ -3,3 +3,4 @@
 CBOR: [RFC 7049](http://tools.ietf.org/html/rfc7049)
 
 - [UUID](uuid.md)
+- [Database ID](db_id.md)
