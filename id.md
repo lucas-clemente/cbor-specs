@@ -11,10 +11,11 @@ This document specifies a tag for identifiers in Concise Binary Object Represent
 ## Semantics
 
 Tag 38 can be applied to multiple types to indicate that the following object has identifier semantics.
+For numeric identifiers (e.g. an integer as primary key in a database) this implies that they are not necessarily meant for arithmetic computations.
 
 ## Rationale
 
-Applications might want to treat identifiers different from normal datatype semantics (e.g. not treat a 64bit ID as an arithmetic type on 32bit platforms such as JavaScript).
+As an example, treating a 64bit unsigned integer as an arithmetic floating point type in JavaScript may lead to incorrect behavior.
 
 ## References
 
